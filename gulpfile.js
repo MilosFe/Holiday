@@ -18,10 +18,25 @@ var sourcemaps = require('gulp-sourcemaps');
 var notify = require('gulp-notify');
 var plumber = require('gulp-plumber');
 
-gulp.task('browserSync', function () {
+gulp.task('browserSync', ['nodemon'], function () {
     browserSync({
-        server: {
-            baseDir: 'app'
+        proxy: 'localhost:5000', // local node app address
+        port: 3000, // use *different* port than above
+        notify: true
+    });
+});
+
+gulp.task('nodemon', function (cb) {
+
+    var started = false;
+
+    return nodemon({
+        script: 'index.js'
+    }).on('start', function () {
+        // to avoid nodemon being started multiple times
+        if (!started) {
+            cb();
+            started = true;
         }
     });
 });
