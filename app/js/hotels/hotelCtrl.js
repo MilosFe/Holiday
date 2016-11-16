@@ -16,7 +16,8 @@
         self.stars = [1, 2, 3, 4, 5];
         self.revList = {};
 
-        /* @description  */
+        /* @description When view is activated you get message for activation
+          * we seperated service of Holiday and we are injecting it into conttoler */
 
         function activate() {
             toastr.info('Holiday view active');

@@ -1,6 +1,6 @@
 (function () {
     'use strict';
-
+    /*@description This is routing system for HolidayPirates app*/
     angular.module('HolidayApp')
         .config(holidayRoutes);
 
