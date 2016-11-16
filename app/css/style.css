@@ -18,6 +18,9 @@ html {
   color: #222;
   font-size: 100%;
   line-height: 1.4; }
+  @media only screen and (max-width: 48em) {
+    html {
+      font-size: 80%; } }
 
 body {
   font: 16px/26px "Lato", Helvetica, Helvetica Neue, Arial; }
@@ -154,9 +157,8 @@ small, .font_small {
   position: relative;
   float: left;
   display: block;
-  padding: 5px;
   min-height: 30px;
-  text-align: center; }
+  text-align: left; }
 
 .row {
   margin-bottom: 10px; }
@@ -203,7 +205,7 @@ small, .font_small {
 .column-12 {
   width: 100%; }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 768px) {
   .column-1,
   .column-2,
   .column-3,
@@ -223,7 +225,7 @@ small, .font_small {
   .row {
     margin-bottom: 0; }
   .column {
-    margin-bottom: 10px; }
+    margin-bottom: 0px; }
   .row:last-child .column:last-child {
     margin-bottom: 0; } }
 
@@ -2331,13 +2333,13 @@ header {
     line-height: 3.125em;
     color: grey;
     cursor: pointer; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48em) {
       header .fa-bars {
         display: block; } }
   header ul {
     list-style: none;
     float: right; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 48em) {
       header ul {
         position: absolute;
         display: none;
@@ -2348,7 +2350,7 @@ header {
     header ul li {
       display: inline-block;
       display: inline; }
-      @media only screen and (max-width: 37.5em) {
+      @media only screen and (max-width: 48em) {
         header ul li {
           display: block; } }
       header ul li a {
@@ -2363,7 +2365,7 @@ header {
         transition: color 1s ease; }
         header ul li a:hover {
           color: #179BD7; }
-        @media only screen and (max-width: 37.5em) {
+        @media only screen and (max-width: 48em) {
           header ul li a {
             float: none;
             display: block;
@@ -2375,6 +2377,145 @@ header {
 
 .hero {
   width: 100%;
-  height: 600px;
-  background-color: #8c8c8c;
-  margin-bottom: 200px; }
+  height: 40vw;
+  max-height: 300px;
+  background: #8c8c8c url("../images/background.jpg") center;
+  background-size: cover; }
+
+/* ==========================================================================
+   Hotel View
+   ========================================================================== */
+.hotel {
+  padding-top: 1.3em;
+  text-align: center;
+  /* Stars Directive */ }
+  .hotel .show::before {
+    content: "Show review"; }
+  .hotel .hide::before {
+    content: "Hide review"; }
+  .hotel button {
+    padding: 5px;
+    margin: 9px 0;
+    background-color: dodgerblue;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px; }
+    .hotel button:hover {
+      background-color: cornflowerblue; }
+  .hotel .search {
+    box-shadow: 0px 0px 68px -15px rgba(0, 0, 0, 0.75);
+    margin-bottom: 20px;
+    padding: 10px 0 40px; }
+    .hotel .search label {
+      font-size: 1.3em; }
+    .hotel .search .fa-star {
+      display: inline;
+      position: absolute;
+      margin-top: 10px;
+      margin-left: 8px; }
+  .hotel ul.rating {
+    display: inline-block; }
+  .hotel .rating li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.0625em;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 6px; }
+  .hotel .rating .filled {
+    color: dodgerblue; }
+  .hotel select {
+    width: 70%;
+    padding: 5px 5px 5px 30px;
+    text-align: center; }
+
+.card {
+  box-shadow: 0px 0px 68px -15px rgba(0, 0, 0, 0.75);
+  margin-bottom: 30px; }
+  .card img {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 19.375em; }
+  .card .column-8 {
+    padding-right: 20px; }
+    @media only screen and (max-width: 48em) {
+      .card .column-8 {
+        padding: 0 5%; } }
+  .card .header {
+    width: 100%;
+    margin-top: 1.25em; }
+    .card .header .card_heading {
+      text-transform: capitalize;
+      margin: 0;
+      font-size: 1.7em;
+      float: left; }
+      @media only screen and (max-width: 48em) {
+        .card .header .card_heading {
+          float: none; } }
+    .card .header .card_stars {
+      float: right;
+      padding-right: 0.625em; }
+      @media only screen and (max-width: 48em) {
+        .card .header .card_stars {
+          float: none; } }
+  .card .city {
+    clear: both;
+    margin: 5px 0; }
+  .card .description {
+    margin-top: 1.25em;
+    margin-bottom: 0px; }
+    @media only screen and (max-width: 48em) {
+      .card .description {
+        margin: 0; } }
+  .card .footer {
+    margin-top: 3.125em;
+    text-align: center; }
+    .card .footer .review {
+      float: left;
+      text-align: left; }
+      @media only screen and (max-width: 48em) {
+        .card .footer .review {
+          float: none;
+          text-align: inherit; } }
+    .card .footer .date_price {
+      float: right;
+      text-align: right; }
+      .card .footer .date_price .price {
+        font-size: 2em;
+        margin-bottom: 5px; }
+      @media only screen and (max-width: 48em) {
+        .card .footer .date_price {
+          margin-top: 3.125em;
+          float: none;
+          text-align: inherit; } }
+
+.review_card {
+  background-color: #e3e3e3; }
+  .review_card .review_list {
+    clear: both;
+    list-style: none;
+    border-bottom: 1px solid black;
+    background-color: #e3e3e3;
+    overflow: auto;
+    position: relative; }
+    .review_card .review_list:last-of-type {
+      border-bottom: none; }
+    .review_card .review_list div {
+      float: left;
+      clear: none; }
+    .review_card .review_list .grade {
+      top: 50%;
+      left: 1%;
+      -webkit-transform: translate(0%, -50%);
+              transform: translate(0%, -50%);
+      position: absolute; }
+      .review_card .review_list .grade i {
+        background-color: ghostwhite;
+        padding: 11px 10px;
+        display: inline-block;
+        border-radius: 100%;
+        box-shadow: 0px 0px 2px #888; }
+    .review_card .review_list .comment {
+      margin-left: 60px;
+      width: 70%; }

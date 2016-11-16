@@ -1,15 +1,15 @@
-$browser-default:16px;
-$mobile-lg:37.5em;
-$mobile-min:37.6em;
+$browser-default: 16px;
+$mobile-lg: 48em;
 $tablet: 56.25em;
 $desktop-width: 64em;
-$grey:#8c8c8c;
+$grey: #8c8c8c;
 
 @mixin media($width) {
   @media only screen and (max-width: $width) {
     @content;
   }
 }
+
 @mixin media-min($width) {
   @media only screen and (min-width: $width) {
     @content;
@@ -17,14 +17,13 @@ $grey:#8c8c8c;
 }
 
 @mixin border-box {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; 
-    }
-
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 @function em($target, $context: $font_size) {
-    @return ($target / $context) * 1em;
+  @return ($target / $context) * 1em;
 }
 
 %clearfix {

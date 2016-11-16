@@ -13,9 +13,13 @@ html {
   color: #222;
   font-size: 100%;
   line-height: 1.4;
+  @include media($mobile-lg){
+    font-size:80%;
+  }
 }
 body {
     font: 16px/26px'Lato', Helvetica, Helvetica Neue, Arial;
+
 }
 img {
   max-width: 100%;

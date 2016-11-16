@@ -5,9 +5,8 @@
   position: relative;
   float: left;
   display: block;
-  padding: 5px;
   min-height: 30px;
-  text-align: center;
+  text-align: left;
 }
 .row {
   margin-bottom: 10px;
@@ -26,7 +25,7 @@
 }
 
 
-@include media($mobile-lg) {
+@include media(768px) {
   .column-1,
   .column-2,
   .column-3,
@@ -49,7 +48,7 @@
     margin-bottom: 0;
   }
   .column {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   .row:last-child .column:last-child {
     margin-bottom: 0;

@@ -1,0 +1,61 @@
+<section class="hotel">
+    <article class="">
+        <div class="wrapper search">
+            <label>Minimum number of stars</label><br>
+            <i class="fa fa-star"></i>
+            <select ng-options="option for option in hotels.stars"
+                    ng-model="hotels.star"
+                    ng-change="hotels.minStars(hotels.star)">
+            </select>
+        </div>
+        <button ng-click="hotels.getHotels()">Get Hotels</button>
+        <h1 ng-show="hotels.error">Something went wrong</h1>
+
+
+        <div class="card wrapper" ng-repeat="item in hotels.list | limitTo: hotels.limit">
+            <div class="column column-4">
+                <img ng-src="{{item.images[0]}}" alt="">
+            </div>
+            <div class="column column-8">
+                <div class="header">
+                    <h3 class="card_heading">{{item.name}}</h3>
+                    <div class="card_stars" star-R rating-value="item.stars" max="5">
+                    </div>
+                </div>
+                    <h5 class="city">{{item.country}} <span> - </span>{{item.city}}</h5>
+                <div class="description">
+                    <p class="item-description">{{item.description}}</p>
+                    <div class="footer">
+                        <div class="review">
+                            <button ng-class="{true:'show', false:'hide'}[!rev]" class="show" ng-click="rev || hotels.loadReview(item.id, $index); rev = !rev;"></button>
+                        </div>
+                        <div class="date_price">
+                            <p class="price">{{item.price}} &euro;</p>
+                            <p class="date">{{item.date_start | date : "dd.mm.yyyy"}} - {{item.date_end | date :
+                                "dd.mm.yyyy" }}</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div ng-show="rev"   class="column column-12 review_card">
+                    <h1 ng-if="hotels.reviewError">There is no review for this hotel</h1>
+                    <div class="review_list" ng-repeat="item in hotels.revList[$index]">
+                        <div class="grade">
+                            <i ng-class="item.positive? 'fa fa-plus' : 'fa fa-minus'"></i>
+                        </div>
+                        <div class="comment">
+                            <h4>{{item.name}}</h4>
+                            <p>{{item.comment}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <button ng-hide="hotels.error"  ng-click="hotels.loadMore()">Load More</button>
+    </article>
+</section>
+

@@ -1,5 +1,11 @@
 /**** Index.Js
- * for Node Node server
+ @ Node Node server
+ *****/
+
+/* Loading required dependencies:
+** @express framework for node 
+** @body-parser for json decode of headers
+** @logger for console logging for showing params
  */
 var express = require('express');
 var app = express();
@@ -8,7 +14,9 @@ var logger = require('morgan');
 
 
 
-
+/* app uses port 5000 or environments port, in our case 
+   our production server will be on Heroku, but local server is on 5000
+ */
 app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/app'));
 
