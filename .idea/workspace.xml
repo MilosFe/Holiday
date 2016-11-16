@@ -2,60 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="877afc87-af43-4dea-b0a6-7394f308909b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/hotels/hotel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/hotels/hotel.routes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/hotels/hotelCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/hotels/hotelDirective.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/hotels/hotelDirective.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/hotels/hotelService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/main.module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/main.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/karma.conf.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/1463330656_br_prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/1463330669_br_next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/box.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/bridge.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/Icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/android-icon-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/android-icon-192x192.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/android-icon-36x36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/android-icon-48x48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/android-icon-72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/android-icon-96x96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/apple-icon-114x114.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/apple-icon-120x120.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/apple-icon-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/apple-icon-152x152.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/apple-icon-180x180.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/apple-icon-57x57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/apple-icon-60x60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/apple-icon-72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/apple-icon-76x76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/apple-icon-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/apple-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/browserconfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/favicon-16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/favicon-32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/favicon-96x96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/ms-icon-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/ms-icon-150x150.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/ms-icon-310x310.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/icons/ms-icon-70x70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/smile.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/style.css" afterPath="$PROJECT_DIR$/app/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/main.js" afterPath="$PROJECT_DIR$/app/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/global.scss" afterPath="$PROJECT_DIR$/app/scss/global.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/grid.scss" afterPath="$PROJECT_DIR$/app/scss/grid.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/mixins.scss" afterPath="$PROJECT_DIR$/app/scss/mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/style.scss" afterPath="$PROJECT_DIR$/app/scss/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/hotels/hotelService.js" afterPath="$PROJECT_DIR$/app/js/hotels/hotelService.js" />
     </list>
     <ignored path="Holiday.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,8 +36,18 @@
       <file leaf-file-name="karma.conf.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/karma.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="420">
               <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hotelService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/hotels/hotelService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -126,7 +83,6 @@
         <option value="$PROJECT_DIR$/app/scss/global.scss" />
         <option value="$PROJECT_DIR$/app/scss/mixins.scss" />
         <option value="$PROJECT_DIR$/app/js/hotels/hotelDirective.js" />
-        <option value="$PROJECT_DIR$/app/js/hotels/hotelService.js" />
         <option value="$PROJECT_DIR$/app/js/main.spec.js" />
         <option value="$PROJECT_DIR$/app/js/main.js" />
         <option value="$PROJECT_DIR$/../Demos and testing apps/app/js/angular.module.spec.js" />
@@ -137,6 +93,7 @@
         <option value="$PROJECT_DIR$/app/scss/style.scss" />
         <option value="$PROJECT_DIR$/karma.conf.js" />
         <option value="$PROJECT_DIR$/app/js/hotels/hotelDirective.spec.js" />
+        <option value="$PROJECT_DIR$/app/js/hotels/hotelService.js" />
       </list>
     </option>
   </component>
@@ -328,7 +285,7 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js-jscs-package" value="C:\Users\Lumi\Desktop\Practice\Holiday\node_modules\jscs" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="ka&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/karma.conf.js&#10;spec.&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/js/hotels/hotelDirective.spec.js&#10;grid&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/scss/grid.scss&#10;style.s&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/scss/style.scss&#10;hotel&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/js/hotels/hotelService.js&#10;sty&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/scss/style.scss&#10;style.css&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/css/style.css&#10;hotel.html&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/js/hotels/hotel.html&#10;index&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/index.html&#10;js/ang&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/js/vendor/angular-animate.js&#10;angul&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/node_modules/angular-mocks/angular-mocks.js" />
+    <property name="SearchEverywhereHistoryKey" value="servi&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/js/hotels/hotelService.js&#10;ka&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/karma.conf.js&#10;spec.&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/js/hotels/hotelDirective.spec.js&#10;grid&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/scss/grid.scss&#10;style.s&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/scss/style.scss&#10;hotel&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/js/hotels/hotelService.js&#10;sty&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/scss/style.scss&#10;style.css&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/css/style.css&#10;hotel.html&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/js/hotels/hotel.html&#10;index&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/index.html&#10;js/ang&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/app/js/vendor/angular-animate.js&#10;angul&#9;FILE&#9;file://C:/Users/Lumi/Desktop/Practice/Holiday/node_modules/angular-mocks/angular-mocks.js" />
     <property name="editor.config.accepted" value="true" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="C:\Users\Lumi\Desktop\Practice\Holiday\node_modules\gulp" />
@@ -422,19 +379,19 @@
       <workItem from="1479108972381" duration="8934000" />
       <workItem from="1479149660307" duration="798000" />
       <workItem from="1479195934265" duration="15164000" />
-      <workItem from="1479283528127" duration="1792000" />
+      <workItem from="1479283528127" duration="2513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111223000" />
+    <option name="totallyTimeSpent" value="111944000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1749634" sideWeight="0.50808316" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1749634" sideWeight="0.49191687" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1749634" sideWeight="0.49191687" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -755,10 +712,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/hotels/hotelService.js">
+    <entry file="file://$PROJECT_DIR$/app/js/hotels/hotelDirective.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="84">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -770,17 +728,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/hotels/hotelDirective.spec.js">
+    <entry file="file://$PROJECT_DIR$/app/js/hotels/hotelService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="672">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/karma.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="420">
           <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding />
         </state>

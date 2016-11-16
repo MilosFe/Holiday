@@ -15,20 +15,20 @@
         //Service Function
 
         function get() {
-            return $http.get("http://fake-hotel-api.herokuapp.com/api/hotels")
+            return $http.get("//fake-hotel-api.herokuapp.com/api/hotels")
                 .then(success)
                 .catch(fail);
             ;
         }
 
         function minStars(number) {
-            return $http.get("http://fake-hotel-api.herokuapp.com/api/hotels?min_stars=" + number)
+            return $http.get("//fake-hotel-api.herokuapp.com/api/hotels?min_stars=" + number)
                 .then(success)
                 .catch(fail);
         }
 
         function reviews(id) {
-            return $http.get("http://fake-hotel-api.herokuapp.com/api/reviews?hotel_id=" + id)
+            return $http.get("//fake-hotel-api.herokuapp.com/api/reviews?hotel_id=" + id)
                 .then(success)
                 .catch(fail);
         }
